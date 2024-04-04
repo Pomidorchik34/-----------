@@ -2,3 +2,36 @@
 @import url(./font.css);
 @import url(./normalize.css);
 @import url(./varables.css);
+.header {
+  background-image: url(../images/image-hero-desktop.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+.header__container {
+  padding-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container {
+}
+.site-logo {
+}
+.sitenav {
+}
+.sitenav__list {
+  display: flex;
+  gap: 3.2rem;
+}
+.sitenav__item {
+}
+.site__link {
+  color: var(--white-color);
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+.main {
+}
+.footer {
+}
